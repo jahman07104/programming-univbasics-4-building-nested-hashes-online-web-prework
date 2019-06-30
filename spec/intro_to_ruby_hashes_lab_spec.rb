@@ -40,7 +40,7 @@ describe "Building a Nested Monopoly Hash" do
   describe "Adding Key/Value Pairs in the Third Level" do
     describe "monopoly_with_third_tier" do
       it "sets the 1st key of the :rent_in_dollars hash to a symbol, :one_piece_owned, whose value is an integer, 25" do
-        expect(ird_tiermonopoly_with_th.values[0].values.count).to eq(3)
+        expect(third_tiermonopoly_with_th.values[0].values.count).to eq(3)
         expect(monopoly_with_third_tier.values[0][:rent_in_dollars].values[0]).to eq(25)
         expect(monopoly_with_third_tier.values[0][:rent_in_dollars].keys[0]).to eq(:one_piece_owned)
       end
