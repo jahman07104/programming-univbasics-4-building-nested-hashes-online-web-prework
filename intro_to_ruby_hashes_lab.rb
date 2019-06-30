@@ -48,39 +48,7 @@ def monopoly_with_second_tier
  } 
 }     
 # 	       :pieces
-# 	       :rent_in_dollars 
-# 	       {
-# 	         :one_piece_owned =>25,
-# 	         :two_pieced_owned =>50,
-# 	         :three_pieces_owned =>100,
-# 	         :four_pieces_owned =>200
-# 	         	       }
-#           :names 
-#           {
-#             :reading_railroad =>
-#             {
-#               "mortgage_value" =>"$100"
-               
-#             },
-#     :pennysylvania_railroad =>
-#     {
-#       "mortgage_valule"=>"$200"
-      
-#     },
-#       :b_and_o_railroad =>
-#       {
-#       "mortgage_value" => "$400"
-             
-#         },  
-#       :short_lines =>
-#       {
-#         "mortgage_value"=>"$800"
-         
-#       }
-    
-# 	}
-	  
-# end
+
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
 
